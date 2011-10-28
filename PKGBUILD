@@ -1,12 +1,12 @@
 # Maintainer: Elliott Hird <penguinofthegods@gmail.com>
 pkgname=noidentd-git
 pkgver=20111028
-pkgrel=3
+pkgrel=4
 pkgdesc="A simple and robust fake identd"
 arch=('i686' 'x86_64')
 url="https://github.com/ehird/noidentd"
 license=('MIT')
-depends=('glibc')
+depends=('glibc' 'bash')
 makedepends=('git')
 provides=('noidentd')
 backup=(etc/conf.d/noidentd)
