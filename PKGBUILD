@@ -1,7 +1,7 @@
 # Maintainer: Elliott Hird <penguinofthegods@gmail.com>
 pkgname=noidentd-git
 pkgver=20111028
-pkgrel=1
+pkgrel=2
 pkgdesc="A simple and robust fake identd"
 arch=('any')
 url="https://github.com/ehird/noidentd"
