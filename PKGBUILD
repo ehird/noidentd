@@ -39,6 +39,6 @@ package() {
   cd "$srcdir/$_gitname-build"
   make PREFIX="$pkgdir/usr" install
   install -D -m644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
-  install -D -m755 noidentd.rcd "$pkgdir/etc/rc.d/noidentd"
-  install -D -m644 noidentd.confd "$pkgdir/etc/conf.d/noidentd"
+  install -D -m755 noidentd.rc.d "$pkgdir/etc/rc.d/noidentd"
+  install -D -m644 noidentd.conf.d "$pkgdir/etc/conf.d/noidentd"
 }
