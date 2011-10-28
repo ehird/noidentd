@@ -9,6 +9,7 @@ license=('MIT')
 depends=('glibc')
 makedepends=('git')
 provides=('noidentd')
+backup=(etc/conf.d/noidentd)
 
 _gitroot="https://github.com/ehird/noidentd.git"
 _gitname="noidentd"
